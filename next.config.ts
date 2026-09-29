@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 const config: NextConfig = {
   basePath: "/projects/modelhome",
   poweredByHeader: false,
+  devIndicators: false,
   productionBrowserSourceMaps: false,
   async headers() {
     return [
