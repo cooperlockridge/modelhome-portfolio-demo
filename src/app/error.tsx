@@ -1,7 +1,7 @@
 "use client";
 export default function Error({ reset }: { reset: () => void }) {
   return (
-    <main className="shell">
+    <main className="content fallback">
       <h1>Let’s try that again.</h1>
       <p>
         The demo hit an unexpected error. Your portfolio is still available.
